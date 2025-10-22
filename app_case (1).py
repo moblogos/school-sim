@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-from model.simulate import Params, simulate
+from simulate_case_v2 import Params, simulate
 
 st.set_page_config(page_title="Caso Escuela San Gabriel", layout="wide")
 
